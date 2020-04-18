@@ -1,4 +1,4 @@
-# Windowsx86 shelcode
+# Windowsx86 shellcode
 
 1). Windows installer is used to install software or a patch, but we can take advantage of this built in windows tool to download and execute remote payload in the background while avoiding detection.
 	
